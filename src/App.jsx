@@ -6,7 +6,7 @@ import FeaturedProducts from './Components/FeaturedProducts';
 import Template from './Components/Template';
 import Footer from './Components/Footer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './Pages/home';
+import Home from './Pages/Home';
 import Shop from './Pages/Shop';
 import About from './Pages/About';
 import Contact from './Pages/Contact';

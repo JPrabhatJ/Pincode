@@ -91,7 +91,7 @@ const About = () => {
 
 
 
-        <div className="bg-purple-50 p-8 rounded-lg">
+        <div className="p-8 rounded-lg">
           <h2 className="text-2xl font-semibold mb-4 text-purple-600 text-center">Join the FreshMart Family</h2>
           <p className="text-center text-gray-600 mb-6">
             We're always looking for passionate individuals to join our team.

@@ -1,0 +1,1 @@
+A simple grocery shpping web app(UI only) made in reactjs and redux.

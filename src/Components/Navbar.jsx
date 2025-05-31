@@ -3,6 +3,7 @@ import { ShoppingCart } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import CartComp from './CartComp';
 import { useSelector } from 'react-redux';
+import logo from '/navpng.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,11 +16,15 @@ const Navbar = () => {
   return (
     <div>
       <div
-        className='mx-auto flex justify-between items-center px-4 py-3 fixed top-0 z-20 bg-purple-100
+        className='mx-auto flex justify-between items-center px-6 py-3 fixed top-0 z-20 bg-purple-100
       w-full border border-gray-100 shadow-xl lg:px-[180px]'
       >
-        <Link to={'/'}>
-          <img src='/new navpng.png' alt='Logo' className='md:w-36 w-100 h-15 object-contain' />
+       <Link to="/">
+          <img
+            src={logo}
+            alt="Logo"
+            className="md:w-36 w-200 h-15 object-contain"
+          />
         </Link>
         <nav className='flex gap-5'>
           <ul className='text-xl font-semibold flex items-center gap-7 hidden md:flex'>

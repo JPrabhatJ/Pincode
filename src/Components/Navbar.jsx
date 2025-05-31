@@ -19,7 +19,7 @@ const Navbar = () => {
       w-full border border-gray-100 shadow-xl lg:px-[180px]'
       >
         <Link to={'/'}>
-          <img src='src/assets/new navpng.png' alt='Logo' className='md:w-36 w-100 h-15 object-contain' />
+          <img src='/new navpng.png' alt='Logo' className='md:w-36 w-100 h-15 object-contain' />
         </Link>
         <nav className='flex gap-5'>
           <ul className='text-xl font-semibold flex items-center gap-7 hidden md:flex'>
